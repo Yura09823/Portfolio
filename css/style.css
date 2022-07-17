@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0d0d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .header__container {
+  width: 90%;
+  padding-top: 25px;
+}
+
+header .header__container .header__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+header .header__container .header__header .header__portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+}
+
+header .header__container .header__header .header__portfolio .header_portfolio_color {
+  color: #133999;
+}
+
+header .header__container .header__header .header_burger {
+  width: 75px;
+  height: 56px;
+  background-image: url("../png/butter.png");
+  background-size: cover;
+}
+
+header .header__container .header__header .header_burger:hover {
+  cursor: pointer;
+}
+
+header .header__container .header__main {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header__container .header__main .header_link {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+header .header__container .header__main .header_link:hover {
+  -webkit-transform: rotate(1, 1);
+          transform: rotate(1, 1);
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__container {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+}
+
+main .main__container .main_color {
+  color: #133999;
+}
+
+main .main__container .main_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main__container .main_home .main_str {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main__container .main_home .main_str .main_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 145px;
+}
+
+main .main__container .main_home .main_str .main_icons .main_telegram {
+  width: 40px;
+  height: 37px;
+  background-image: url("../png/telegram.png");
+  background-size: cover;
+  margin-bottom: 145px;
+}
+
+main .main__container .main_home .main_str .main_icons .main_telegram:hover {
+  cursor: pointer;
+}
+
+main .main__container .main_home .main_str .main_icons .main_github {
+  width: 40px;
+  height: 40px;
+  background-image: url("../png/github.png");
+  background-size: cover;
+}
+
+main .main__container .main_home .main_str .main_icons .main_github:hover {
+  cursor: pointer;
+}
+
+main .main__container .main_home .main_str .main_icons .main_insta {
+  width: 40px;
+  height: 40px;
+  background-image: url("../png/instagram.png");
+  background-size: cover;
+  margin-bottom: 145px;
+}
+
+main .main__container .main_home .main_str .main_icons .main_insta:hover {
+  cursor: pointer;
+}
+
+main .main__container .main_home .main_str .main_icons .main_twitter {
+  width: 45px;
+  height: 36.45px;
+  background-image: url("../png/twitter.png");
+  background-size: cover;
+}
+
+main .main__container .main_home .main_str .main_icons .main_twitter:hover {
+  cursor: pointer;
+}
+
+main .main__container .main_home .main_str .main_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .main__container .main_home .main_str .main_text .main_paragraph {
+  font-size: 48px;
+  font-weight: 600;
+  color: #133999;
+  margin-bottom: 75px;
+}
+
+main .main__container .main_home .main_str .main_text .main_paragraph_js {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+main .main__container .main_about {
+  width: 100%;
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main__container .main_about .main_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10px;
+}
+
+main .main__container .main_about .main_text .main_about_title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #133999;
+  margin-bottom: 50px;
+}
+
+main .main__container .main_about .main_text .main_about_subtitle {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  line-height: 60px;
+}
+
+main .main__container .main_about .main_text .main_about_sub {
+  font-size: 30px;
+  font-weight: 500;
+  color: grey;
+  line-height: 50px;
+  margin-top: 25px;
+}
+
+main .main__container .main_about .main_photo {
+  width: 400px;
+  height: 399px;
+  background-image: url("../png/jerry.jpg");
+  background-size: cover;
+  margin-top: 50px;
+}
+
+main .main__container .main_skills {
+  width: 100%;
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .main__container .main_skills .main_title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #133999;
+  margin-bottom: 50px;
+}
+
+main .main__container .main_skills .main_block_skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__container .main_skills .main_block_skills .main_block1 {
+  width: 40%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+main .main__container .main_skills .main_block_skills .main_block1 .main_skill_shell {
+  width: 50%;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #133999;
+  border-radius: 10px;
+  padding-left: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .main__container .main_skills .main_block_skills .main_block1 .main_skill_shell:hover {
+  cursor: pointer;
+  width: 100%;
+}
+
+main .main__container .main_skills .main_block_skills .main_block2 {
+  width: 40%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+main .main__container .main_skills .main_block_skills .main_block2 .main_skill_shell {
+  width: 50%;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #133999;
+  border-radius: 10px;
+  padding-left: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 40px;
+}
+
+main .main__container .main_skills .main_block_skills .main_block2 .main_skill_shell:hover {
+  cursor: pointer;
+  width: 100%;
+}
+
+main .main__container .main_projects {
+  width: 100%;
+}
+
+main .main__container .main_projects .main_title {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #133999;
+}
+
+main .main__container .main_projects .main_all_projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .main__container .main_projects .main_all_projects .main_logo {
+  width: 150px;
+  height: 149px;
+  background-image: url("../png/jerry.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+main .main__container .main_projects .main_all_projects .main_project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+}
+
+main .main__container .main_projects .main_all_projects .main_project .main_link {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #133999;
+}
